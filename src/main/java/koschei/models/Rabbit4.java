@@ -8,7 +8,7 @@ public class Rabbit4 {
     Duck5 duck5;
 
     @Autowired
-    public void setEgg6(Duck5 duck5) {
+    public void setDuck5(Duck5 duck5) {
         this.duck5 = duck5;
     }
 

@@ -8,10 +8,8 @@ public class Duck5 {
     Egg6 egg6;
 
     @Autowired
-    public Egg6 getEgg6(Egg6 egg6) {
+    public  Duck5(Egg6 egg6) {
         this.egg6 = egg6;
-        return egg6;
-
     }
 
     @Override
